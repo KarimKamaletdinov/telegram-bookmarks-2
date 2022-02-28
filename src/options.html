@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Settings</title>
+</head>
+
+<body>
+    <h1>Telegram-Bookmarks settings</h1>
+    <div id="form_container">
+        Bot token: <input id="bot_id" name='bot_id' type="text" value=""/> <br/>
+        <button id="form_submit">OK</button>
+    </div>
+    <div id="secret_code_container" hidden>
+        <h1>Your secret code is: <b id="secret_code"></b></h1>
+        <h2>Send it to your bot personally or add bot to a group and send this code there</h2>
+    </div>
+    <div id="ok_text_container" hidden>
+        <h1>Great</h1>
+        <h2>Your bot is connected successfully</h2>
+        <h2>Bot is working with chat: id=<b id="chat_id"></b>; type=<b id="chat_type"></b>; name=<b id="chat_name"></b></h2>
+        <h2>Now you can to add some page into Bookmarks and probably it will be sent you</h2>
+    </div>
+    <script src="options.js"></script>
+</body>
+
+</html>
